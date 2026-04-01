@@ -35,7 +35,7 @@ p {
 }
 #ancora {
     text-decoration: none;
-    color: var(--cor-pretoo);
+    color: var(--cor-preto);
     font-size: 20px;
     transition: color 0.3s ease;
 }
