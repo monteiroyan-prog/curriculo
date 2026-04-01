@@ -16,26 +16,26 @@ body {
     background-color: var(--cor-principal);
 }
 .funcao {
-    color: var(--cor-roxo);
+    color: var(--cor-preto);
 }
 p {
-    color: var(--cor-roxo);
+    color: var(--cor-preto);
 }
 .lead {
     font-weight: 700;
-    color: var(--cor-roxo);
+    color: var(--cor-preto);
 }
 .titulo_habilidades {
     font-size: 25px;
-    color: var(--cor-roxo);
+    color: var(--cor-preto);
 }
 #rodape {
-    background-color: var(--cor-preto);
-    color: var(--cor-roxo);
+    background-color: var(--cor-azul);
+    color: var(--cor-preto);
 }
 #ancora {
     text-decoration: none;
-    color: var(--cor-roxo);
+    color: var(--cor-pretoo);
     font-size: 20px;
     transition: color 0.3s ease;
 }
@@ -45,8 +45,8 @@ p {
     text-decoration: underline;
 }
 .habilidades:hover .badge {
-    background-color: var(--cor-roxo) !important;
-    color: var(--cor-preto);
+    background-color: var(--cor-preto) !important;
+    color: var(--cor-azul);
     transform: scale(1.15);
     transition: 0.3s;
 }
