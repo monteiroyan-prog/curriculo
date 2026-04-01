@@ -1,0 +1,52 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #4c41df;
+    --cor-verde: #68baa6;
+    --cor-clara: #68baa6;
+    --cor-musgo: #4e8074;
+    --cor-preto: #000000;
+    --cor-roxo: #a10ba1;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#body {
+    background-color: var(--cor-principal);
+}
+.funcao {
+    color: var(--cor-roxo);
+}
+p {
+    color: var(--cor-roxo);
+}
+.lead {
+    font-weight: 700;
+    color: var(--cor-roxo);
+}
+.titulo_habilidades {
+    font-size: 25px;
+    color: var(--cor-roxo);
+}
+#rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-roxo);
+}
+#ancora {
+    text-decoration: none;
+    color: var(--cor-roxo);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-clara);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.habilidades:hover .badge {
+    background-color: var(--cor-roxo) !important;
+    color: var(--cor-preto);
+    transform: scale(1.15);
+    transition: 0.3s;
+}
